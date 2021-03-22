@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="chuong3_7.css">
+	<script src="dangky.js"></script>
+</head>
+<body>
+<h1>Đăng ký tài khoản</h1>
+<form  method="POST" action="home.html" onsubmit="return formValidate()">
+	<div class="row">
+		<div class="col-25">
+			<label>Username</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="user" id="user" placeholder="Enter your Username">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label>Password</label>
+		</div>
+		<div class="col-75">
+			<input type="password" name="pwd" id="pwd" placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;" pattern="[a-zA-Z0-9!@#$%^&*]{8,}" >
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label>Confirm Password</label>
+		</div>
+		<div class="col-75">
+			<input type="password" name="pwda" id="pwda" placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;" pattern="[a-zA-Z0-9!@#$%^&*]{8,}" onfocusout="password()">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label>First Name</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="fname" name="fname" placeholder="Enter your First name">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label>Last Name</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="lname" name="lname" placeholder="Enter your Last name">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label>Email</label>
+		</div>
+		<div class="col-75">
+			<input type="email" placeholder="Enter your email" id="email" name="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label>Phone</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="phone" id="phone"  placeholder="Enter your phone number" pattern="^[0-9\-\+]{9,15}$">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			
+		</div>
+		<div class="col-75">
+			<input type="submit" name="submit" value="Sign up">
+		</div>
+	</div>
+
+</form>
+
+</body>
+</html>

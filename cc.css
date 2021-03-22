@@ -1,0 +1,18 @@
+
+body{
+	background-image:url("https://invietthang365.com/wp-content/uploads/2019/03/tai-hinh-nen-dep-cho-may-tinh-min.jpg") ;
+	z-index: -1;
+}
+h1{
+	text-align: center;
+}
+div {
+	width: 700px;
+	background-color: white;
+	height: auto;
+	margin: 0 auto;
+}
+img{
+	border:1px solid black;
+	text-align:  left;
+}

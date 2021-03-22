@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+input[type="text"]{
+	width: 450px;
+    height: 52px;
+    text-align: right;
+    background-color: cyan;
+    border:none;
+    border-top: 2px solid black;
+    color: black;
+    outline: none;
+    }
+.keys input{
+	width: 109px;
+    height: 52px;
+	margin-top: 5px;
+}
+.keys input:hover{
+	background-color: cyan;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="chuong3_6.css">
+<body>
+<form action="" method="POST">
+	<input id ="Rs" type="text" name="" placeholder="0">
+	<div class="keys">
+	<input type="button" name="" value="CE" onclick="Rs.value=' '">
+	<input type="button" name="" value="<--"onclick="Rs.value=Rs.value.substr(0,Rs.value.length-1)">
+	<input type="button" name="" value="%" onclick="Rs.value+=this.value">
+	<input type="button" name="" value="+" onclick="Rs.value+=this.value">
+	<br>
+	<input type="button" name="" value="7" onclick="Rs.value+=this.value">
+	<input type="button" name="" value="8" onclick="Rs.value+=this.value">
+	<input type="button" name="" value="9" onclick="Rs.value+=this.value">
+	<input type="button" name="" value="-" onclick="Rs.value+=this.value">
+	<br>
+	<input type="button" name="" value="4" onclick="Rs.value+=this.value">
+	<input type="button" name="" value="5" onclick="Rs.value+=this.value">
+	<input type="button" name="" value="6" onclick="Rs.value+=this.value">
+	<input type="button" name="" value="X" onclick="Rs.value+=this.value">
+	<br>
+	<input type="button" name="" value="1" onclick="Rs.value+=this.value">
+	<input type="button" name="" value="2" onclick="Rs.value+=this.value">
+	<input type="button" name="" value="3" onclick="Rs.value+=this.value">
+	<input type="button" name="" value="/" onclick="Rs.value+=this.value">
+	<br>
+	<input type="button" name="" value="0" onclick="Rs.value+=this.value">
+	<input type="button" name="" value="+-" onclick="Rs.value+=this.value">
+	<input type="button" name="" value="," onclick="Rs.value+=this.value">
+	<input type="button" name="" value="=" onclick="Rs.value=eval(Rs.value)">
+	</div>
+
+</form>
+
+</body>
+</html>
