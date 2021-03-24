@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<script>
+	var myFunc=
+	setInterval(function(){
+		myTimer()},1000);
+	function myTimer() {
+		var d = new Date();
+		var t =
+		d.toLocaleTimeString();
+		document.getElementById('demo').innerHTML= t; 
+		}
+	function myStopFunc(){
+		clearInterval(myFunc);
+	}
+
+
+	function f2(a1,a2,a3) {
+		if(a2 === undefined || a2 === null) a2=88;
+		a3 = a3 || 'default' ;
+		document.writeln("<p>a1= "+a1+ "</p>");
+	}
+</script>
+</head>
+<body>
+<p>A script on this page starts this clock:</p>
+<p id="demo"></p>
+<button onclick="myStopFunc()">Stop</button>
+</body>
+</html>
