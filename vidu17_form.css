@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.form {
+	margin-left: 50px;
+	transition: 0.6s;
+
+}
+h1{
+	text-align: center;
+	color: red;
+	transition: 0.7s;
+
+}
+form{
+	width: 50%;
+
+}
+form input[type=text]{
+	width: 50%;
+	border: none;
+	outline: none;
+}
+form input[type=text]:focus{
+	border-top:1px solid #ccc;
+}
+form input[type=button]{
+	border-radius: 2px;
+	border:none;
+	background-color: green;
+	color: #ffffff;
+	font-weight: 600;
+}
+form input[type=button]:hover{
+	background-color: #05bf05;
+
+}
